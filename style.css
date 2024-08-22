@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.hero {
+    background-color: #61dafb;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 0 0 30px;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #282c34;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.features, .pricing, .contact {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+.features .container, .pricing .container, .contact .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.features h2, .pricing h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature-item, .pricing-plan {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricing-plan {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-plan h3 {
+    margin: 0 0 10px;
+}
+
+.pricing-plan p {
+    font-size: 1.5em;
+    margin: 0 0 20px;
+}
+
+.pricing-plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-plan ul li {
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #61dafb;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #282c34;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
